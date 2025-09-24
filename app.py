@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+
 import uuid
 
 # Set page configuration for a wide layout and custom theme
@@ -202,4 +202,5 @@ st.markdown("""
 <div style='text-align: center; color: #6b7280;'>
     Powered by Streamlit | © 2025 Options Position Analyzer
 </div>
+
 """, unsafe_allow_html=True)
